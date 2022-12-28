@@ -3,9 +3,8 @@
  */
 package power60.services.app
 
-import power60.services.utilities.StringUtils
-
 import org.apache.commons.text.WordUtils
+import power60.services.utilities.StringUtils
 
 fun main() {
     val tokens = StringUtils.split(MessageUtils.getMessage())
